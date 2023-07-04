@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2 {
+    font-family: 'Bungee', cursiva;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 32px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img {
+    height: 120px;
+}
+
+.brand-list li {
+    display: inline;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-link img {
+    height: 10px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+footer {
+    background-color: gray;
+    color: rgb(252, 250, 248);
+}
